@@ -1,0 +1,4 @@
+# Empêcher l'accès direct aux sources hors assets
+<IfModule mod_authz_core.c>
+    Require all granted
+</IfModule>

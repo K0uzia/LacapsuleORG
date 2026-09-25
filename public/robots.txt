@@ -1,0 +1,6 @@
+# Group 1
+User-agent: *
+Disallow: /ressources/
+
+
+Sitemap: https://cdr.lacapsule.org/sitemap.xml

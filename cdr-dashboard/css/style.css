@@ -1,0 +1,232 @@
+@import url(reset.css);
+@import url(sidebar.css);
+@import url(classes.css);
+@import url(fonts.css);
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-image:
+    linear-gradient(90deg, #292929 0 110px, transparent 110px 100px), 
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23c3c3c4' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: 0;
+}
+header {
+    min-height: 5em;
+    margin: 0 2em 0 2em;
+}
+header>h1 {
+    width: 80vw;
+    font-size: 2em;
+    font-weight: bolder;
+}
+main {
+    position: relative;
+    top: 2em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-around;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin-bottom: 110px;
+}
+#dash {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    height: auto;
+}
+#recap {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-around;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+}
+.nbRes,
+.nbStr,
+.nbUsers,
+.derPub {
+    width: 220px;
+    height: 220px;
+    margin-top: 10px;
+}
+.nbRes {
+    background-color: hsla(84, 100%, 59%, .3);
+}
+.nbStr {
+    background-color: rgba(238, 255, 4, .3);
+}
+.nbUsers {
+    background-color: rgba(255, 0, 0, .3);
+}
+.derPub {
+    background-color: rgba(255, 162, 0, .3);
+}
+.bienvenue {
+    width: 93%;
+    min-height: 60px;
+    margin-top: 50px;
+    background-color: rgba(238, 255, 4, .3);
+}
+.monRecap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 93%;
+    min-height: 370px;
+    margin-top: 50px;
+    background-color: rgba(255, 4, 4, 0.3);
+    font-size: 1.2em;
+    line-height: 1.8em;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(46, 46, 46);
+}
+#mesPub {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: space-around;
+    justify-content: space-around;
+    width: 30%;
+    height: 80%;
+}
+.statPub {
+    width: 360px;
+    height: 220px;
+    margin-top: 10px;
+    background-color: hsla(270, 100%, 50%, .3);
+}
+.derRes {
+    width: 360px;
+    height: 480px;
+    margin-top: 50px;
+    background-color: rgba(238, 255, 4, .3);
+}
+.nbRes,
+.nbStr,
+.nbUsers,
+.derPub,
+.bienvenue,
+.statPub,
+.derRes {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-around;
+    justify-content: flex-start;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    font-weight: bold;
+    padding: 10px;
+    color:rgb(46, 46, 46);
+}
+
+.nb{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 950px) {
+    body {
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23c3c3c4' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    main {
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        align-content: flex-start;
+        min-height: 30vh;
+        margin: 0 0 20vh 0;
+        padding: 0;
+    }
+    header {
+        margin-top: 0;
+    }
+#dash {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+}
+#recap {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+    .nbRes,
+    .nbStr,
+    .nbUsers,
+    .derPub {
+        width: 90%;
+        height: 450px;
+        margin-top: 50px;
+    }
+    .nbRes {
+        background-color: hsla(84, 100%, 59%, .3);
+    }
+    .nbStr {
+        background-color: rgba(238, 255, 4, .3);
+    }
+    .nbUsers {
+        background-color: rgba(255, 0, 0, .3);
+    }
+    .derPub {
+        background-color: rgba(255, 162, 0, .3);
+    }
+    .bienvenue {
+        width: 90%;
+        min-height: 260px;
+        margin-top: 50px;
+        background-color: rgba(238, 255, 4, .3);
+    }
+    .monRecap {
+        width: 90%;
+        min-height: 450px;
+        margin-top: 50px;
+        background-color: rgba(255, 4, 4, 0.3);
+    }
+    #mesPub {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 80%;
+    }
+    .statPub {
+        width: 90%;
+        height: 450px;
+        margin-top: 50px;
+        background-color: hsla(270, 100%, 50%, .3);
+    }
+    .derRes {
+        width: 90%;
+        height: 450px;
+        margin-top: 50px;
+        background-color: rgba(238, 255, 4, .3);
+    }
+}

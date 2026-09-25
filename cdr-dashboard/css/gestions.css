@@ -1,0 +1,414 @@
+@import url(style.css);
+
+table {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 2% 0 0 0;
+}
+thead {
+    margin: 0 0 1% 0;
+    border-radius: 33px 33px 0 0;
+}
+thead, tbody {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 2px solid hsla(0, 0%, 0%, .6);
+    background: -o-linear-gradient(45deg, rgb(253, 251, 251), whitesmoke);
+    background: linear-gradient(45deg, rgb(253, 251, 251), whitesmoke);
+    padding: 1%;
+}
+tbody {
+    border-radius: 0 0 33px 33px;
+    padding-bottom: 1.5em;
+}
+tr {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+th, td {
+    width: 20%;
+    height: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+td {
+    padding: 2% 0 2% 0;
+}
+th:last-child,
+td:last-child{
+    width: 10%;
+    padding-left: 5%;
+}
+tr:nth-child(even) {
+    background: -o-linear-gradient(45deg, rgb(240, 240, 240), rgb(224, 224, 224));
+    background: linear-gradient(45deg, rgb(240, 240, 240), rgb(224, 224, 224));
+}
+.btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 1% 2% 1% 2%;
+    margin: 2%;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.btn:hover {
+    -webkit-filter: invert(2);
+            filter: invert(2);
+}
+button {
+    border: 1px solid whitesmoke;
+    background-color: rgb(28, 29, 28);
+    color: whitesmoke;
+}
+button:hover {
+    background-color: rgb(241, 241, 4);
+    color: rgb(28, 29, 28);
+}
+alert {
+    text-align: center;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    color: hsl(0, 69%, 38%);
+    width: 100%;
+    height: 3em;
+    margin-top: 2em;
+}
+table, thead, tbody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90%;
+    height: auto;
+}
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-width: 40%;
+    height: auto;
+    border-radius: 50px;
+    font-size: 1em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23c3c3c4' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); 
+    -webkit-box-shadow: 2px 2px 8px black,
+    inset -1px -1px 10px rgb(110, 110, 110); 
+            box-shadow: 2px 2px 8px black,
+    inset -1px -1px 10px rgb(110, 110, 110);
+    border: 2px solid rgb(179, 179, 179);
+}
+input, select, button {
+    font-size: 1.1em;
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    font-weight: bolder;
+    width: 90%;
+    min-height: 1.3em;
+    border-radius: 50px;
+}
+input[type="file"], button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    outline: none;
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+input:not([type="submit"], [type="file"]), textarea, select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90%;
+    min-height: 1.2em;
+    outline: none;
+    border: 1px solid rgb(113, 113, 113);
+    -webkit-box-shadow: inset 1px 1px 4px rgb(71, 71, 71);
+            box-shadow: inset 1px 1px 4px rgb(71, 71, 71);
+    margin: 10px 50px 0 50px;
+}
+input:not([type="submit"]), select {
+    padding: 1em 1em 1em 1em;
+}
+input, button {
+    min-height: 2.6em;
+    border-radius: 50px;
+}
+input:focus, textarea:focus {
+    -webkit-filter: contrast(1.8);
+            filter: contrast(1.8);
+}
+textarea {
+    width: 92%;
+    height: 10em;
+    padding: 1em 1em 1em 2.1em;
+    border-radius: 20px 20px 0 20px;
+    font-weight: bolder;
+}
+label {
+    padding: 3% 0 0 0;
+}
+dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    min-width: 60%;
+    max-width: 96%;
+    min-height: 6.3em;
+    margin: 2% 0 2% 0;
+    padding: 5% 5% 1% 5%;
+    text-align: center;
+    background-color: hsla(0, 0%, 96%, .7);
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 8px hsla(0, 0%, 0%, .1),
+    inset 2px 2px 8px hsla(0, 0%, 0%, .1);
+            box-shadow: 2px 2px 8px hsla(0, 0%, 0%, .1),
+    inset 2px 2px 8px hsla(0, 0%, 0%, .1);
+}
+dl>a:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: brightness(1.3) contrast(1.2);
+            filter: brightness(1.3) contrast(1.2);
+}
+strong {
+    padding: 0 1% 1% 1%;
+    margin: 0 0 0 0;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+    font-weight: bolder;
+}
+#image, 
+#deroule,
+#tuto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+}
+label[for="deroule"],
+label[for="tuto"] {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: underline;
+    -webkit-text-decoration-style: double;
+            text-decoration-style: double;
+    text-decoration-thickness: under;
+    -webkit-text-decoration-color: rgb(37, 136, 24);
+            text-decoration-color: rgb(37, 136, 24);
+    margin-bottom: 12px;
+}
+p {
+    width: 90%;
+    margin: 10px 0 10px 0;
+}
+p>strong {
+    color:hsl(0, 69%, 38%);
+}
+#category,
+#structure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: whitesmoke;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 99%;
+    background-position-y: -3px;
+    background-size: 3em;
+    border: 1px solid #dfdfdf;
+}
+#nom, 
+#prenom, 
+#mail, 
+#pseudo, 
+#level, 
+#adresse,
+#cp,
+#ville,
+#tel,
+#referent {
+    margin: 2% 2% 0 2%;
+    width: 80%;
+    height: 1.2em;
+} 
+@media screen and (max-width: 950px) {
+    
+    table {
+        width: 98%;
+    }
+    th:first-child,
+    td:first-child {
+        padding: 2% 0 2% 0;
+    }
+    th, td {
+        padding: 2% 5% 2% 0;
+    }
+    th:nth-child(2),
+    td:nth-child(2) {
+        width: 50%;
+        text-align: center;
+    }
+    th[name="mail"],
+    td[name="mail"] {
+        display: none;
+        width: 0;
+    }
+    .btn {
+        padding: 1% 5% 2% 5%;
+    }
+    form {
+        width: 100%;
+        padding: 5% 0 5% 0;
+    }
+    input,
+    #nom, 
+    #prenom, 
+    #mail, 
+    #pseudo, 
+    #level, 
+    #adresse,
+    #cp,
+    #ville,
+    #tel,
+    #referent {
+        margin: 2% 5% 1% 5%;
+        width: 80%;
+        height: 1.2em;
+    } 
+}

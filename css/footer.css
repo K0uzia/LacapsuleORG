@@ -1,0 +1,60 @@
+@import url(style.css);
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: 96vw;
+    height: 10vh;
+    top: 95%;
+    bottom: 0;
+}
+menu.footer_gauche {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: space-around;
+    justify-content: space-around;
+    padding: 0;
+    width: 20em;
+}
+menu.footer_droite {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: space-around;
+    justify-content: space-around;
+    margin-right: 1em;
+    width: 20em;
+}
+.link {
+    transition: .2s ease-in-out;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 50%;
+    width: 3em;
+    height: auto;
+    padding: -2px;
+}
+.link:hover {
+    transform: rotate(12deg) scale(1.1);
+    box-shadow: 4px 4px 10px rgb(71, 71, 71);
+}
+img[title="Financement"] {
+    width: 5em;
+    height: auto;
+}
+@media screen and (max-width: 950px) {
+footer {
+    justify-content: center;
+    position: relative;
+    width: 96%;
+    bottom: 0;
+}
+menu.footer {
+    width: 100vw;
+    margin: 0 0 3em 0;
+    padding: 3% 0 3% 0;
+}
+.link {
+    padding: 0;
+}
+}

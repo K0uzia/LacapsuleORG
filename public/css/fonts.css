@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'La-Capsule';
+    src: url(../assets/fonts/lacapsuleorg-webfont.woff);
+}
+@font-face {
+    font-family: 'DunbarLow';
+    src: url(../assets/fonts/DunbarLow.woff);
+}
+@font-face {
+    font-family: 'CarmenHeavy';
+    src: url(../assets/fonts/CarmenHeavy.otf) format(opentype);
+}

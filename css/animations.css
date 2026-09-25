@@ -1,0 +1,489 @@
+@keyframes modal {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes titre {
+    0% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        margin-left: -1000%;
+        font-size: 3em;
+        padding: 18px 20px 8px 20px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);
+    }
+    8% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        margin-left: 0;
+        font-size: 3em;
+        padding: 18px 20px 8px 20px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);
+    }
+    28% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        margin-left: 0;
+        font-size: 3em;
+        padding: 18px 20px 8px 20px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);
+    }
+    28.2% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        margin-left: 0;
+        font-size: 3em;
+        padding: 18px 20px 8px 20px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);
+    }
+    28.3% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        font-size: 3em;
+        padding: 18px 20px 8px 20px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg,white,#524a7f,#3d3660);
+    }
+    28.6% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        font-size: 3em;
+        padding: 18px 20px 8px 20px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,white,#3d3660);
+    }
+    29% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        font-size: 3em;
+        padding: 18px 20px 8px 20px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660,white);
+    }
+    29.1% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        font-size: 3em;
+        padding: 18px 20px 8px 20px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);
+    }
+    33% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        font-size: 3em;
+        padding: 18px 20px 8px 20px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);
+    }
+    34% {
+        content: "";
+        padding: 18px 20px 8px 20px;
+        border-radius: 0;
+        margin-left: 0;
+        border-radius: 50px;
+        font-style: normal;
+        background: transparent;
+        color: #f1d474;
+    }
+    35% {
+        content: "MY"attr(data-text)"SOLUCE";
+        font-family: 'DunbarLow';
+        font-weight: lighter;
+        font-style: oblique;
+        color: #ed5b21;
+        font-size: 3em;
+        margin-left: -1000%;
+        border-radius: 0;
+        text-shadow: none;
+        background: transparent;}
+    40% {
+        content: "MY"attr(data-text)"SOLUCE";
+        font-family: 'DunbarLow';
+        font-weight: lighter;
+        font-style: oblique;
+        color: #ed5b21;
+        font-size: 3em;
+        margin-left: 0;
+        border-radius: 0;
+        text-shadow: none;
+        background: transparent;
+    }
+    45% {
+        content: "MY"attr(data-text)"SOLUCE";
+        font-family: 'DunbarLow';
+        font-weight: lighter;
+        font-style: normal;
+        color: #ed5b21;
+        font-size: 3em;
+        margin-left: 0;
+        border-radius: 0;
+        text-shadow: none;
+        background: transparent;}
+    68% {
+        content: "MY"attr(data-text)"SOLUCE";
+        font-family: 'DunbarLow';
+        font-weight: lighter;
+        font-style: normal;
+        color: #ed5b21;
+        font-size: 3em;
+        margin-left: 0;
+        border-radius: 0;
+        text-shadow: none;
+        background: transparent;
+    }
+    69% {
+        content: "";
+        color: #ed5b21;
+        font-weight: normal;
+        border-radius: 0;
+        background: transparent;
+        padding: 16px 20px 14px 20px;
+    }
+    70% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 3em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    93% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 3em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    94% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 3.2em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    95% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 3em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    96% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 3.2em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    97% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 3em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    100% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 3em;
+        opacity: 0;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+}
+@keyframes titreMobile {
+    0% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        margin-left: -1000%;
+        font-size: 1.6em;
+        padding: 10px 12px 5px 12px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);
+    }
+    8% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        margin-left: 0;
+        font-size: 1.6em;
+        padding: 10px 12px 5px 12px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);
+    }
+    28% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        margin-left: 0;
+        font-size: 1.6em;        
+        padding: 10px 12px 5px 12px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);}
+    33% {
+        content: "LA CAPSULE";
+        font-family: 'La-Capsule';
+        font-weight: normal;
+        color: #f1d474;
+        font-size: 1.6em;        
+        padding: 10px 12px 5px 12px;
+        border-radius: 50px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #524a7f,#3d3660);
+    }
+    34% {
+        content: "";
+        padding: 10px 12px 5px 12px;
+        border-radius: 0;
+        margin-left: 0;
+        border-radius: 50px;
+        font-style: normal;
+        background: transparent;
+        color: #f1d474;
+    }
+    35% {
+        content: "MY"attr(data-text)"SOLUCE";
+        font-family: 'DunbarLow';
+        font-weight: lighter;
+        font-style: oblique;
+        color: #ed5b21;
+        font-size: 1.6em;
+        margin-left: -1000%;
+        border-radius: 0;
+        text-shadow: none;
+        background: transparent;}
+    40% {
+        content: "MY"attr(data-text)"SOLUCE";
+        font-family: 'DunbarLow';
+        font-weight: lighter;
+        font-style: oblique;
+        color: #ed5b21;
+        font-size: 1.6em;
+        margin-left: 0;
+        border-radius: 0;
+        text-shadow: none;
+        background: transparent;
+    }
+    45% {
+        content: "MY"attr(data-text)"SOLUCE";
+        font-family: 'DunbarLow';
+        font-weight: lighter;
+        font-style: normal;
+        color: #ed5b21;
+        font-size: 1.6em;
+        margin-left: 0;
+        border-radius: 0;
+        text-shadow: none;
+        background: transparent;}
+    68% {
+        content: "MY"attr(data-text)"SOLUCE";
+        font-family: 'DunbarLow';
+        font-weight: lighter;
+        font-style: normal;
+        color: #ed5b21;
+        font-size: 1.6em;
+        margin-left: 0;
+        border-radius: 0;
+        text-shadow: none;
+        background: transparent;
+    }
+    69% {
+        content: "";
+        color: #ed5b21;
+        font-weight: normal;
+        border-radius: 0;
+        background: transparent;
+        padding: 16px 20px 14px 20px;
+    }
+    70% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 1.6em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    93% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 1.6em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    94% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 1.7em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    95% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 1.6em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    96% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 1.7em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    97% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 1.6em;
+        opacity: 100%;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+    100% {
+        content: "GOUPIL";
+        font-family: 'CarmenHeavy';
+        font-weight: normal;
+        color: #171717;
+        font-size: 1.6em;
+        opacity: 0;
+        padding: 16px 20px 14px 20px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px #ce7834,
+        -2px -2px 4px #c55d4a;
+        background: linear-gradient(45deg, #dd651f,#f17228);
+    }
+}
